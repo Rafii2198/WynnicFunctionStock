@@ -1,0 +1,8 @@
+{
+	"Custom XP Bar": {
+		"type": 1,
+		"name": "Custom XP Bar",
+		"vt": "test value template",
+		"tt": "text template test"
+	}
+}
