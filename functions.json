@@ -5,7 +5,7 @@
 		"vt": "test value template",
 		"tt": "text template test"
 	},
-	"Horse Info Overlay": {
+	"Horse_Info_Overlay": {
 		"type": 0,
 		"name": "Horse Info Overlay",
 		"vt": "test value template2",
