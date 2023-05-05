@@ -1,0 +1,6 @@
+{
+	"name": "Horse info - a port from Legacy",
+	"version": "1.0",
+	"wynntils": "0.0.3-alpha.13",
+	"value": "{if_str(gte(h_tier;1);concat(\"Horse Tier: \";format(h_tier);\" | \";if_str(eq(h_lvl;h_mlvl);\"Level MAX |\";concat(format(h_xp);\"/100xp | Level: \";format(h_lvl);\" | Time needed: \";format(integer(mul(div(add(mul(3; h_lvl); 2); 6); div(sub(100; h_xp); 100))));\":\";format(mul(mod(mul(div(add(mul(3; h_lvl); 2); 6); div(sub(100; h_xp); 100)); 1); 60));\" | \")));\"\")} Speed: {bps_xz}"
+}

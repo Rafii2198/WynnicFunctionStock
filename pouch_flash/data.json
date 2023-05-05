@@ -1,0 +1,6 @@
+{
+	"name": "Flashing Pouch Indicator",
+	"version": "1.0",
+	"wynntils": "0.0.3-alpha.13",
+	"value": "Pouch: {if_str(eq(0;pouch_free);if_str(eq(mod(soulpoint_timer_s;2);0);\"&o&4No Space Left!\";\"&o&cNo Space Left!\");if_str(gte(5;pouch_free);if_str(lte(mod(soulpoint_timer_s;6);2);concat(\"&6\";format(pouch_free);\"/27\");concat(\"&e\";format(pouch_free);\"/27\"));concat(\"&2\";format(pouch_free);\"/27\")))}"
+}

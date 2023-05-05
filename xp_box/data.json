@@ -1,0 +1,6 @@
+{
+	"name": "Advanced XP Overlay",
+	"version": "1.0",
+	"wynntils": "0.0.3-alpha.13",
+	"value": "&2{xp}/{xp_req} {if_str(MT(xppm;0.1); concat(\"[+\"; concat(xpm;\"/m] \")); \"\")}&7| &6{xp_pct:2}% {if_str(MT(xppm;0.1); concat(\"[+\"; concat(str(round(xppm;integer(2)):2);\"%/m]\")); \"\")}"
+}
